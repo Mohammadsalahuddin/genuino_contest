@@ -1,0 +1,66 @@
+.ui-page { 
+    /*background:#2b2e31;*/
+     background: #0B3B0B;
+}
+
+.ui-page .ui-header {
+    background: forestgreen !important;
+}
+
+.ui-page .ui-footer {
+    /*background: forestgreen !important; */
+    background: url(http://casajasmina.arduino.cc/wp-content/themes/Arduino/images/s_logos/arduino_genuino.png);
+
+    background-size:100% 100%;
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    /*background-color: forestgreen;*/ 
+    border: 3px solid forestgreen;
+    margin:0px;
+    height: 10px;
+}
+
+#footer {
+    width:100%;
+    height:40px;
+    background:red;
+    position:absolute;
+    align-content: center;
+    bottom:0;
+    background-image: url(http://casajasmina.arduino.cc/wp-content/themes/Arduino/images/s_logos/arduino_genuino.png);
+    background-repeat: no-repeat;
+}
+
+div#one {
+    width: 50%;
+    height: 200px;
+    background: red;
+    float: left;
+}
+div#two {
+    margin-left: 50%;
+    height: 200px;
+    background: black;
+}
+
+
+.gauge {
+    width: 320px;
+    height:320px;
+    float: center;
+}
+
+
+/*centering the canvas*/
+#canvas-container {
+   width: 100%;
+   text-align:center;
+    float:center;
+}
+
+canvas {
+   display: inline;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Patients Care</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+
+    
+        
+    <script src="cordova.js"></script>          <!-- phantom library, needed for Cordova api calls, added during build -->
+    <script src="js/app.js"></script>           <!-- recommended location of your JavaScript code relative to other JS files -->
+    <script src="xdk/init-dev.js"></script>     <!-- normalizes device and document ready events, see README for details -->
+    
+    
+    
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+    <link rel="stylesheet"href="css/style.css"/>
+    
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+    <script src="js/raphael-2.1.4.min.js"></script>
+    <script src="js/justgage.js"></script>
+    
+    <script src="js/fetch.js"></script>
+    <script src="js/getData.js"></script>
+    <!-- <script src="js/gauge.min.js"></script> -->
+    <script src="js/myCharts.js"></script>
+
+</head>
+
+
+<body>
+    
+<div data-role="page">
+
+	<div data-role="header" data-position="fixed">
+		<h1>Patients Care</h1>
+	</div><!-- /header -->
+    
+    <div class="ui-grid-a">
+      <div class="ui-block-a">
+        <div id="g1" class="gauge" style="margin:0 auto;margin-left:auto;margin-right:auto;align:center;text-align:center;"></div>
+      </div>
+
+    </div>
+
+    
+
+
+
+
+	<div role="main" class="ui-page">
+		<p>Page content goes here.</p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed" style="color:white; background-color:#0d333f">
+		<h4></h4>
+        <!-- <canvas id="footer" width="600" height="30" style="border:1px solid"></canvas> -->
+	</div><!-- /footer -->
+    
+</div><!-- /page -->
+
+</body>
+</html>
