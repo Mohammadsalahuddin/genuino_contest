@@ -1,3 +1,10 @@
 # genuino_contest
-# Mobile Apps Source
-I am unable to share the Mobile apps source code (source code contains my own user credentials and Its only connected with my IoT Cloud Account). Thanks for understanding.
+# Mobile apps Source Code
+Sample Mobile application source code added as well as video turotials added</br>
+check my youtube channels for step step video turotials</br>
+The device frimware for test apps as well as the final frimware are there.</br>
+
+# youtube channels
+
+
+
